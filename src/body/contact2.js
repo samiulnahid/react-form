@@ -265,7 +265,7 @@ const Contact2 = () => {
                         <form onSubmit={handleSubmit((d) => console.log(d))}> 
                         
                             {/* <FormGroup row> */}
-                                {/* <label htmlFor="firstname" md={12}>First Name</label> */}
+                                <label htmlFor="firstname" >First Name</label><br/>
                                 {/* <Col md={12}> */}
                                     <input 
                                         type="text" 
